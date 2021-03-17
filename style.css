@@ -1,16 +1,19 @@
 
 header{
-    background-color: #2C3E4F;
+    height: 75px;
 }
 header, footer{
     color: white;
 }
+
+
+/* colori background */
 .green{
     background-color: #00C09D;
 }
-.blu1{
+.dark{
     background-color: #3A536B;
 }
-.blu2{
+.darker{
     background-color: #2C3E4F;
 }
