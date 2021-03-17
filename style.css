@@ -1,18 +1,17 @@
 
 header{
-    height: 75px;
 }
 header, footer{
     color: white;
 }
 
 .box{
-    background-color: aqua;
-    height: 100px;
     margin: 15px 0;
 }
-
-/* colori background */
+nav > .container {
+    height: 75px;
+}
+/* colori */
 .green{
     background-color: #00C09D;
 }
@@ -21,4 +20,8 @@ header, footer{
 }
 .darker{
     background-color: #2C3E4F;
+}
+.white{
+    color: white;
+    font-weight: 600;
 }
