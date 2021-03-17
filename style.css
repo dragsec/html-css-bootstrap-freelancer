@@ -6,6 +6,11 @@ header, footer{
     color: white;
 }
 
+.box{
+    background-color: aqua;
+    height: 100px;
+    margin: 15px 0;
+}
 
 /* colori background */
 .green{
