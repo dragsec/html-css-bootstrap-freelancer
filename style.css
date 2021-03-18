@@ -12,6 +12,9 @@ header, footer{
     background-color: yellow;
     height: 200px;
 }
+.imgsize{
+    height: 50px;
+} 
 /* nav > .container {
     height: 75px;
 } */
