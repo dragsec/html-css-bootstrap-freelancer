@@ -43,10 +43,15 @@ header, footer{
 .rigag:last-child{
     margin-top: 100px;
 }
-
+.paddingx{
+    padding: 50px 0;
+}
 /* colori */
 .green{
     background-color: #00C09D;
+}
+.greentext{
+    color: #00C09D;
 }
 .dark{
     background-color: #3A536B;
@@ -71,6 +76,12 @@ header, footer{
     display: inline-block;
     padding: 10px;
     margin-bottom: 30px;
+}
+.greenbutton{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #00C09D;
 }
 /* temporanei */
 .marginauto{
