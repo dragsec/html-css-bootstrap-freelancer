@@ -12,9 +12,10 @@ header, footer{
     background-color: yellow;
     height: 200px;
 }
-nav > .container {
+/* nav > .container {
     height: 75px;
-}
+} */
+
 /* colori */
 .green{
     background-color: #00C09D;
