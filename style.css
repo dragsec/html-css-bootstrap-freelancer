@@ -10,7 +10,7 @@ header, footer{
 }
 .boxprova{
     background-color: yellow;
-    height: 200px;
+    height: 160px;
 }
 .imgsize{
     height: 50px;
@@ -18,7 +18,23 @@ header, footer{
 /* nav > .container {
     height: 75px;
 } */
-
+.line{
+    border: 1px solid;
+    height: 1px; 
+    width: 200px; 
+}
+.star{
+    margin: 20px;
+    font-size: 40px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+.line, .star{
+    display: inline-block;
+}
+.marginbot{
+    margin-bottom: 30px;
+}
 /* colori */
 .green{
     background-color: #00C09D;
@@ -33,7 +49,23 @@ header, footer{
     color: white;
     font-weight: 600;
 }
+/* fonts */
+.bigger{
+    font-size: 25px;
+}
 /* temporanei */
 .marginauto{
     text-align: center;
+}
+
+@media (max-width: 992px){
+    .line{
+        width: 100px;
+    }
+    .star{
+        font-size: 40px;
+    }
+
+
+
 }
